@@ -4,8 +4,12 @@ body h1 {
 
 body a i,
 body a img {
-    height: 100px;
+    height: 100%;
     font-size: 100px;
+}
+
+body a {
+    height: 100px
 }
 
 body a i {
@@ -45,6 +49,8 @@ body > div {
     grid-area: central;
     box-sizing: border-box;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .link-container-title {
@@ -59,3 +65,6 @@ body > div {
     line-height: 2.5rem;
 }
 
+.central-link-container-link {
+    flex: 1;
+}
